@@ -8,6 +8,7 @@
         Title="Week 01" Height="450" Width="800" Background="#FFF5EFDB">
     <Grid>
         <Label Content="Hello World!" HorizontalAlignment="Left" Margin="78,67,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <Label Content="視窗程式設計很好玩" HorizontalAlignment="Left" Margin="81,156,0,0" VerticalAlignment="Top" Height="55" Width="328" FontSize="24" Foreground="#FF664AF3" FontWeight="Bold"/>
 
     </Grid>
 </Window>
