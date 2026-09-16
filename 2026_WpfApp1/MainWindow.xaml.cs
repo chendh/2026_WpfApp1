@@ -20,5 +20,13 @@ namespace _2026_WpfApp1
         {
             InitializeComponent();
         }
+
+        private void okButton_Click(object sender, RoutedEventArgs e)
+        {
+            string name = nameTextBox.Text;
+            string telphone = telTextBox.Text;
+            string message = $"Name: {name}\nTelphone: {telphone}";
+            MessageBox.Show(message, "我的資訊", MessageBoxButton.OK);
+        }
     }
 }
