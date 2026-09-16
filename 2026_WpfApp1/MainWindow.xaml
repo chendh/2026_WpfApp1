@@ -5,15 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_2026_WpfApp1"
         mc:Ignorable="d"
-        Title="Week 01" Height="450" Width="800" Background="#FFF5EFDB">
+        Title="Week 02" Height="556" Width="856" Background="#FFF5EFDB">
     <Grid>
-        <Label Content="Hello World!" HorizontalAlignment="Left" Margin="78,67,0,0" VerticalAlignment="Top" FontSize="36"/>
-        <Label Content="視窗程式設計很好玩" HorizontalAlignment="Left" Margin="78,128,0,0" VerticalAlignment="Top" Height="55" Width="328" FontSize="24" Foreground="#FF664AF3" FontWeight="Bold"/>
-        <Label Content="姓名" HorizontalAlignment="Left" Margin="78,0,0,0" VerticalAlignment="Center" Height="43" Width="71" FontSize="20" Background="#00000000" Foreground="#FFEF1616"/>
-        <TextBox x:Name="nameTextBox" HorizontalAlignment="Left" Margin="149,0,0,189" TextWrapping="Wrap" Width="250" Height="40" FontSize="20" VerticalContentAlignment="Center" VerticalAlignment="Bottom"/>
-        <Label Content="電話" HorizontalAlignment="Left" Margin="78,263,0,0" VerticalAlignment="Top" Height="43" Width="71" FontSize="20" Background="#00000000" Foreground="#FFEF1616"/>
-        <TextBox x:Name="telTextBox" HorizontalAlignment="Left" Margin="149,0,0,120" TextWrapping="Wrap" Width="250" Height="40" FontSize="20" VerticalContentAlignment="Center" VerticalAlignment="Bottom"/>
-        <Button x:Name="okButton" Content="確認" HorizontalAlignment="Left" Margin="494,217,0,0" VerticalAlignment="Top" Height="69" Width="153" FontSize="22" FontWeight="Bold" Click="okButton_Click"/>
+        <Label Content="Hello World!" HorizontalAlignment="Left" Margin="32,10,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <Label Content="視窗程式設計很好玩" HorizontalAlignment="Left" Margin="291,22,0,0" VerticalAlignment="Top" Height="55" Width="328" FontSize="24" Foreground="#FF664AF3" FontWeight="Bold"/>
+        <Label Content="姓名" HorizontalAlignment="Left" Margin="39,61,0,0" VerticalAlignment="Top" Height="43" Width="71" FontSize="20" Background="#00000000" Foreground="#FFEF1616"/>
+        <TextBox x:Name="nameTextBox" HorizontalAlignment="Left" Margin="115,61,0,0" TextWrapping="Wrap" Width="250" Height="40" FontSize="20" VerticalContentAlignment="Center" VerticalAlignment="Top"/>
+        <Label Content="電話" HorizontalAlignment="Left" Margin="39,104,0,0" VerticalAlignment="Top" Height="43" Width="71" FontSize="20" Background="#00000000" Foreground="#FFEF1616"/>
+        <TextBox x:Name="telTextBox" HorizontalAlignment="Left" Margin="115,107,0,0" TextWrapping="Wrap" Width="250" Height="40" FontSize="20" VerticalContentAlignment="Center" VerticalAlignment="Top"/>
+        <Button x:Name="okButton" Content="確認" HorizontalAlignment="Left" Margin="431,77,0,0" VerticalAlignment="Top" Height="49" Width="135" FontSize="22" FontWeight="Bold" Click="okButton_Click"/>
+        <Label Content="輸入一個數值" HorizontalAlignment="Left" Margin="39,174,0,0" VerticalAlignment="Top" Height="43" Width="157" FontSize="20" Background="#00000000" Foreground="#FFEF1616"/>
+        <TextBox x:Name="numberTextBox" HorizontalAlignment="Left" Margin="180,176,0,0" TextWrapping="Wrap" Width="185" Height="40" FontSize="20" VerticalContentAlignment="Center" VerticalAlignment="Top"/>
+        <Button x:Name="computeButton" Content="顯示N*N乘法表" HorizontalAlignment="Left" Margin="428,176,0,0" VerticalAlignment="Top" Height="49" Width="177" FontSize="22" FontWeight="Bold" Click="computeButton_Click"/>
+        <TextBlock x:Name="resultTextBlock" Margin="32,249,32,33" TextWrapping="Wrap" FontSize="18" Padding="10,10,10,10" Background="#FFFBE3DC"/>
 
     </Grid>
 </Window>
